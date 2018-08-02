@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1F6E2B20BF475D0005D2B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6E2A20BF475D0005D2B7 /* AppDelegate.swift */; };
+		CE1F6E2D20BF475D0005D2B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6E2C20BF475D0005D2B7 /* ViewController.swift */; };
+		CE1F6E3020BF475D0005D2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6E2E20BF475D0005D2B7 /* Main.storyboard */; };
+		CE1F6E3220BF47600005D2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6E3120BF47600005D2B7 /* Assets.xcassets */; };
+		CE1F6E3520BF47600005D2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6E3320BF47600005D2B7 /* LaunchScreen.storyboard */; };
+		CE1F6E4020BF47600005D2B7 /* Puerto_de_BoyacaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6E3F20BF47600005D2B7 /* Puerto_de_BoyacaTests.swift */; };
+		CE1F6E4B20BF47600005D2B7 /* Puerto_de_BoyacaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6E4A20BF47600005D2B7 /* Puerto_de_BoyacaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1F6E3C20BF47600005D2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1F6E1F20BF475D0005D2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1F6E2620BF475D0005D2B7;
+			remoteInfo = "Puerto de Boyaca";
+		};
+		CE1F6E4720BF47600005D2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1F6E1F20BF475D0005D2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1F6E2620BF475D0005D2B7;
+			remoteInfo = "Puerto de Boyaca";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1F6E2720BF475D0005D2B7 /* Puerto de Boyaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puerto de Boyaca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F6E2A20BF475D0005D2B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1F6E2C20BF475D0005D2B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE1F6E2F20BF475D0005D2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1F6E3120BF47600005D2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE1F6E3420BF47600005D2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE1F6E3620BF47600005D2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1F6E3B20BF47600005D2B7 /* Puerto de BoyacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puerto de BoyacaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F6E3F20BF47600005D2B7 /* Puerto_de_BoyacaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puerto_de_BoyacaTests.swift; sourceTree = "<group>"; };
+		CE1F6E4120BF47600005D2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1F6E4620BF47600005D2B7 /* Puerto de BoyacaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puerto de BoyacaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F6E4A20BF47600005D2B7 /* Puerto_de_BoyacaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puerto_de_BoyacaUITests.swift; sourceTree = "<group>"; };
+		CE1F6E4C20BF47600005D2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1F6E2420BF475D0005D2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F6E3820BF47600005D2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F6E4320BF47600005D2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1F6E1E20BF475D0005D2B7 = {
+			isa = PBXGroup;
+			children = (
+				CE1F6E2920BF475D0005D2B7 /* Puerto de Boyaca */,
+				CE1F6E3E20BF47600005D2B7 /* Puerto de BoyacaTests */,
+				CE1F6E4920BF47600005D2B7 /* Puerto de BoyacaUITests */,
+				CE1F6E2820BF475D0005D2B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1F6E2820BF475D0005D2B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F6E2720BF475D0005D2B7 /* Puerto de Boyaca.app */,
+				CE1F6E3B20BF47600005D2B7 /* Puerto de BoyacaTests.xctest */,
+				CE1F6E4620BF47600005D2B7 /* Puerto de BoyacaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1F6E2920BF475D0005D2B7 /* Puerto de Boyaca */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F6E2A20BF475D0005D2B7 /* AppDelegate.swift */,
+				CE1F6E2C20BF475D0005D2B7 /* ViewController.swift */,
+				CE1F6E2E20BF475D0005D2B7 /* Main.storyboard */,
+				CE1F6E3120BF47600005D2B7 /* Assets.xcassets */,
+				CE1F6E3320BF47600005D2B7 /* LaunchScreen.storyboard */,
+				CE1F6E3620BF47600005D2B7 /* Info.plist */,
+			);
+			path = "Puerto de Boyaca";
+			sourceTree = "<group>";
+		};
+		CE1F6E3E20BF47600005D2B7 /* Puerto de BoyacaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F6E3F20BF47600005D2B7 /* Puerto_de_BoyacaTests.swift */,
+				CE1F6E4120BF47600005D2B7 /* Info.plist */,
+			);
+			path = "Puerto de BoyacaTests";
+			sourceTree = "<group>";
+		};
+		CE1F6E4920BF47600005D2B7 /* Puerto de BoyacaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F6E4A20BF47600005D2B7 /* Puerto_de_BoyacaUITests.swift */,
+				CE1F6E4C20BF47600005D2B7 /* Info.plist */,
+			);
+			path = "Puerto de BoyacaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1F6E2620BF475D0005D2B7 /* Puerto de Boyaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F6E4F20BF47600005D2B7 /* Build configuration list for PBXNativeTarget "Puerto de Boyaca" */;
+			buildPhases = (
+				CE1F6E2320BF475D0005D2B7 /* Sources */,
+				CE1F6E2420BF475D0005D2B7 /* Frameworks */,
+				CE1F6E2520BF475D0005D2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puerto de Boyaca";
+			productName = "Puerto de Boyaca";
+			productReference = CE1F6E2720BF475D0005D2B7 /* Puerto de Boyaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE1F6E3A20BF47600005D2B7 /* Puerto de BoyacaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F6E5220BF47600005D2B7 /* Build configuration list for PBXNativeTarget "Puerto de BoyacaTests" */;
+			buildPhases = (
+				CE1F6E3720BF47600005D2B7 /* Sources */,
+				CE1F6E3820BF47600005D2B7 /* Frameworks */,
+				CE1F6E3920BF47600005D2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1F6E3D20BF47600005D2B7 /* PBXTargetDependency */,
+			);
+			name = "Puerto de BoyacaTests";
+			productName = "Puerto de BoyacaTests";
+			productReference = CE1F6E3B20BF47600005D2B7 /* Puerto de BoyacaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE1F6E4520BF47600005D2B7 /* Puerto de BoyacaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F6E5520BF47600005D2B7 /* Build configuration list for PBXNativeTarget "Puerto de BoyacaUITests" */;
+			buildPhases = (
+				CE1F6E4220BF47600005D2B7 /* Sources */,
+				CE1F6E4320BF47600005D2B7 /* Frameworks */,
+				CE1F6E4420BF47600005D2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1F6E4820BF47600005D2B7 /* PBXTargetDependency */,
+			);
+			name = "Puerto de BoyacaUITests";
+			productName = "Puerto de BoyacaUITests";
+			productReference = CE1F6E4620BF47600005D2B7 /* Puerto de BoyacaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1F6E1F20BF475D0005D2B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Comercializadora S3";
+				TargetAttributes = {
+					CE1F6E2620BF475D0005D2B7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CE1F6E3A20BF47600005D2B7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CE1F6E2620BF475D0005D2B7;
+					};
+					CE1F6E4520BF47600005D2B7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CE1F6E2620BF475D0005D2B7;
+					};
+				};
+			};
+			buildConfigurationList = CE1F6E2220BF475D0005D2B7 /* Build configuration list for PBXProject "Puerto de Boyaca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1F6E1E20BF475D0005D2B7;
+			productRefGroup = CE1F6E2820BF475D0005D2B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1F6E2620BF475D0005D2B7 /* Puerto de Boyaca */,
+				CE1F6E3A20BF47600005D2B7 /* Puerto de BoyacaTests */,
+				CE1F6E4520BF47600005D2B7 /* Puerto de BoyacaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1F6E2520BF475D0005D2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F6E3520BF47600005D2B7 /* LaunchScreen.storyboard in Resources */,
+				CE1F6E3220BF47600005D2B7 /* Assets.xcassets in Resources */,
+				CE1F6E3020BF475D0005D2B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F6E3920BF47600005D2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F6E4420BF47600005D2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1F6E2320BF475D0005D2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F6E2D20BF475D0005D2B7 /* ViewController.swift in Sources */,
+				CE1F6E2B20BF475D0005D2B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F6E3720BF47600005D2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F6E4020BF47600005D2B7 /* Puerto_de_BoyacaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F6E4220BF47600005D2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F6E4B20BF47600005D2B7 /* Puerto_de_BoyacaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE1F6E3D20BF47600005D2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1F6E2620BF475D0005D2B7 /* Puerto de Boyaca */;
+			targetProxy = CE1F6E3C20BF47600005D2B7 /* PBXContainerItemProxy */;
+		};
+		CE1F6E4820BF47600005D2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1F6E2620BF475D0005D2B7 /* Puerto de Boyaca */;
+			targetProxy = CE1F6E4720BF47600005D2B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE1F6E2E20BF475D0005D2B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1F6E2F20BF475D0005D2B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE1F6E3320BF47600005D2B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1F6E3420BF47600005D2B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1F6E4D20BF47600005D2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE1F6E4E20BF47600005D2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1F6E5020BF47600005D2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFM4QNZT9A;
+				INFOPLIST_FILE = "Puerto de Boyaca/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comercializadora-s3.Puerto-de-Boyaca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE1F6E5120BF47600005D2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFM4QNZT9A;
+				INFOPLIST_FILE = "Puerto de Boyaca/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comercializadora-s3.Puerto-de-Boyaca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE1F6E5320BF47600005D2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RDT5Q9GN;
+				INFOPLIST_FILE = "Puerto de BoyacaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comercializadora-s3.Puerto-de-BoyacaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puerto de Boyaca.app/Puerto de Boyaca";
+			};
+			name = Debug;
+		};
+		CE1F6E5420BF47600005D2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RDT5Q9GN;
+				INFOPLIST_FILE = "Puerto de BoyacaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comercializadora-s3.Puerto-de-BoyacaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puerto de Boyaca.app/Puerto de Boyaca";
+			};
+			name = Release;
+		};
+		CE1F6E5620BF47600005D2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RDT5Q9GN;
+				INFOPLIST_FILE = "Puerto de BoyacaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comercializadora-s3.Puerto-de-BoyacaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Puerto de Boyaca";
+			};
+			name = Debug;
+		};
+		CE1F6E5720BF47600005D2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RDT5Q9GN;
+				INFOPLIST_FILE = "Puerto de BoyacaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comercializadora-s3.Puerto-de-BoyacaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Puerto de Boyaca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1F6E2220BF475D0005D2B7 /* Build configuration list for PBXProject "Puerto de Boyaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F6E4D20BF47600005D2B7 /* Debug */,
+				CE1F6E4E20BF47600005D2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1F6E4F20BF47600005D2B7 /* Build configuration list for PBXNativeTarget "Puerto de Boyaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F6E5020BF47600005D2B7 /* Debug */,
+				CE1F6E5120BF47600005D2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1F6E5220BF47600005D2B7 /* Build configuration list for PBXNativeTarget "Puerto de BoyacaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F6E5320BF47600005D2B7 /* Debug */,
+				CE1F6E5420BF47600005D2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1F6E5520BF47600005D2B7 /* Build configuration list for PBXNativeTarget "Puerto de BoyacaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F6E5620BF47600005D2B7 /* Debug */,
+				CE1F6E5720BF47600005D2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1F6E1F20BF475D0005D2B7 /* Project object */;
+}
